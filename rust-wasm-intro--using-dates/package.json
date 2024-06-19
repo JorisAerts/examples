@@ -1,0 +1,16 @@
+{
+    "name": "rust-test",
+    "version": "0.0.1",
+    "type": "module",
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    },
+    "scripts": {
+        "build": "cd crates/rust-lib && ./build.sh",
+        "dev": "cd packages/app && yarn dev"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "packageManager": "yarn@4.3.0"
+}

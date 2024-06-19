@@ -1,0 +1,6 @@
+{
+  "name": "rust-lib",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "This packages will be overwritten when running ./build.sh in crates/rust-lib"
+}
